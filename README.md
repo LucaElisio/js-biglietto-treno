@@ -11,8 +11,8 @@
 ### Svolgimento
 
 1. Input
-    - [ ] Chiediamo all'utente il numero di chilometri che vuole percorrere (variabile: userKm)
-    - [ ] Chiediamo all'utente la sua età (variabile: userAge)
+    - [x] Chiediamo all'utente il numero di chilometri che vuole percorrere (variabile: userKm)
+    - [x] Chiediamo all'utente la sua età (variabile: userAge)
     - [ ] Dichiaro variabile sconto (variabile: discount)
 
 2. Esecuzione logica
