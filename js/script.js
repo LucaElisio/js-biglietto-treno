@@ -13,3 +13,24 @@ console.log(userAge, typeof userAge);
 
 // Dichiaro variabile sconto
 let discount = 0;
+
+let price = userKm * 0.21; //number
+console.log(price, typeof price);
+
+// Condizion per lo sconto
+if (userAge < 18) {
+    discount = price * 0.20;
+    console.log(discount);
+} else if (userAge > 65) {
+    discount = price * 0.40;
+    console.log(discount);
+}
+
+// Calcolo il prezzo totale
+let totalPrice = price - discount; //number
+console.log(totalPrice, typeof totalPrice);
+
+// Riduco a 2 decimali il prezzo totale
+totalPrice = Math.round((totalPrice + Number.EPSILON)*100)/100;
+console.log(totalPrice, typeof totalPrice);
+

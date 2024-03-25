@@ -13,12 +13,12 @@
 1. Input
     - [x] Chiediamo all'utente il numero di chilometri che vuole percorrere (variabile: userKm)
     - [x] Chiediamo all'utente la sua età (variabile: userAge)
-    - [ ] Dichiaro variabile sconto (variabile: discount)
+    - [x] Dichiaro variabile sconto (variabile: discount)
 
 2. Esecuzione logica
-    - [ ] Dichiaro variabile prezzo, facendo userKm * 0.21 (variabile: price)
+    - [x] Dichiaro variabile prezzo, facendo userKm * 0.21 (variabile: price)
 
-    - [ ] Imposto la condizione: se l'età è minore di 18, lo sconto sarà uguale al 20% (price * 0.20), altrimenti se l'età è maggiore di 65, lo sconto sarà uguale al 40% (price * 0.40).
+    - [x] Imposto la condizione: se l'età è minore di 18, lo sconto sarà uguale al 20% (price * 0.20), altrimenti se l'età è maggiore di 65, lo sconto sarà uguale al 40% (price * 0.40).
 
     - [ ] Calcolo il prezzo totale facendo prezzo - sconto (variabile: totalPrice)
 
