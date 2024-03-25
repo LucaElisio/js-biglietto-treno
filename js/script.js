@@ -34,3 +34,8 @@ console.log(totalPrice, typeof totalPrice);
 totalPrice = Math.round((totalPrice + Number.EPSILON)*100)/100;
 console.log(totalPrice, typeof totalPrice);
 
+// Stampo il risultato finale
+document.getElementById("totalprice").innerHTML = `
+    il prezzo totale è di € ${totalPrice}
+`
+
